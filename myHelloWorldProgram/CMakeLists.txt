@@ -1,0 +1,9 @@
+# define minimum cmake version
+
+cmake_minimum_required(VERSION 2.6)
+
+project(myHelloWorldProgram)
+
+set(myHelloWorldProgramVersion 1)
+
+set(SRCS src/YggdrasillEnterprises/HeaderFiles/IncludesHeader.h src/YggdrasillEnterprises/HeaderFiles/PrintFWrapperFunctionWrapperDeclaration.h src/YggdrasillEnterprises/HeaderFiles/StrNCpyWrapperFunctionWrapperDeclaration.h src/YggdrasillEnterprises/HeaderFiles/IterationsCheckingFunctionDeclaration.h src/YggdrasillEnterprises/HeaderFiles/TypeDefinitionsHeader.h src/YggdrasillEnterprises/SourceFiles/IterationsCheckingFunctionDefinition.c src/YggdrasillEnterprises/SourceFiles/PrintFWrapperFunctioNWrapperDefinition.c src/YggdrasillEnterprises/SourceFiles/IterationsCheckingFunctionDefinition.c src/YggdrasillEnterprises/SourceFiles/MainProgram.c)
